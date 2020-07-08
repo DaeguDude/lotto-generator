@@ -14,7 +14,7 @@ body{
 #lotto-container{
     min-height: 400px;
     height: 50%;
-    width: 80%;
+    width: 80vw;
     min-width: 800px;
     position: relative;
     background-color: orangered;
@@ -27,6 +27,7 @@ body{
 
 #main-display{
     height: 70%;
+    width: 100%;
     background-color: palegoldenrod;
 }
 
@@ -37,11 +38,11 @@ body{
 }
 
 #main-display .numb{
-    margin: 0;
     display: inline-block;
     float: left;
     border-radius: 50%;
-    width: 16.6667%;
-    height: 16.6667%;
+    width: calc(((80vw - 40px)/ 6) );
+    height: calc(((80vw - 40px)/ 6) );
     background-color: green;
+    /* 로또 공 마진 해결해라 */
 }
