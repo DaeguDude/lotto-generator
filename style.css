@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 60px;
+    background-color: orange;
+}
+body{
+    height: 100vh;
+}
+#lotto-container{
+    min-height: 400px;
+    height: 50%;
+    width: 80%;
+    min-width: 800px;
+    position: relative;
+    background-color: orangered;
+    left: 50%;
+    top : 50%;
+    transform:  translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#main-display{
+    height: 70%;
+    background-color: palegoldenrod;
+}
+
+#button-display{
+    height: 30%;
+    background-color: gray;
+    padding: 20px;
+}
+
+#main-display .numb{
+    margin: 0;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    width: 16.6667%;
+    height: 16.6667%;
+    background-color: green;
+}
