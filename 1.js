@@ -11,7 +11,7 @@ button.addEventListener("click",()=>{
             return numb;
         }
     }
-    
+    // 
     const inputValue = document.getElementById("numb-game-input").value;
     const gameNumb = !isNaN(inputValue) && inputValue > 0 ? inputValue : 0; //숫자가 아니고, 0보다 크면 value사용, 아니면 0;
     gameNumbArray = []; 
